@@ -1,112 +1,112 @@
-📊 Customer Churn Analysis – Telecom Industry
-Analyze churn behavior to discover why customers leave and how to retain them.
+# 📊 Customer Churn Analysis – Telecom Industry
 
-📁 Project Overview
-This project explores customer churn using a structured telecom dataset. The aim is to:
+Analyze customer behavior to discover why they leave and how to retain them.
 
-Identify key churn drivers
+---
 
-Understand usage and service patterns
+## 📁 Project Overview
 
-Generate actionable recommendations
+This project explores customer churn using a structured telecom dataset. The key goals are to:
 
-🛠 Built using Python, Pandas, Matplotlib, and Seaborn.
+- Identify key churn drivers  
+- Understand usage and service patterns  
+- Generate actionable recommendations  
 
-📊 Dataset Summary
-The dataset contains customer-level information:
+---
 
-Column Name	Description
-gender	Customer gender
-SeniorCitizen	1 if senior citizen, else 0
-tenure	Months with the company
-Contract	Type of contract (Monthly/Yearly)
-TotalCharges	Total charges incurred
-Churn	Target column: Yes (left), No (active)
-...	Includes service features like Internet, Security, etc.
+## 🛠️ Tools & Technologies
 
-🔧 Data Preprocessing
-Replaced blanks in TotalCharges and converted to float
+- Python (Pandas, NumPy)  
+- Matplotlib, Seaborn  
+- Jupyter Notebook  
+- Git & GitHub for version control  
 
-Converted SeniorCitizen from binary to "Yes"/"No"
+---
 
-Verified no duplicate customerID
+## 📊 Dataset Summary
 
-Ensured correct data types for all columns
+The dataset contains customer-level information such as:
 
-📉 Churn Analysis Summary
-Churn Rate: ~26.5% of customers have churned
+- `gender`: Customer gender  
+- `SeniorCitizen`: 1 if senior citizen, 0 otherwise  
+- `tenure`: Months with the company  
+- `Contract`: Monthly/Yearly  
+- `TotalCharges`: Total charges incurred  
+- `Churn`: Yes (left), No (active)  
+- Plus: Internet, Security, Tech Support services, etc.
 
-Demographics:
+---
 
-No churn difference by gender
+## 🔧 Data Preprocessing
 
-Senior citizens churn significantly more
+- Replaced blanks in `TotalCharges` and converted to float  
+- Converted `SeniorCitizen` from binary to "Yes"/"No"  
+- Verified no duplicate `customerID`  
+- Ensured correct data types for all columns  
 
-Tenure:
+---
 
-Most churn happens in the first 1–2 months
+## 📉 Churn Analysis Summary
 
-Contract Type:
+- **Churn Rate**: ~26.5% of customers have churned
 
-Month-to-month plans have the highest churn
+### 🔍 Demographics:
+- No churn difference by gender  
+- Senior citizens churn significantly more  
 
-Annual contracts increase retention
+### 🕒 Tenure:
+- Most churn happens within the first 1–2 months  
 
-Services Impact:
+### 📃 Contract Type:
+- Month-to-month plans have the highest churn  
+- Annual contracts improve retention  
 
-Lack of value-added services (OnlineSecurity, TechSupport) increases churn
+### 🛎️ Services Impact:
+- Lack of OnlineSecurity & TechSupport increases churn  
+- Fiber optic users churn more than DSL users  
 
-Fiber optic users churn more than DSL customers
+---
 
-📊 Visual Insights
-✅ Pie chart & bar plot for overall churn rate
+## 📊 Visual Insights
 
-✅ Stacked percentage bar chart for churn by senior citizen
+- ✅ Pie chart & bar plot for overall churn rate  
+- ✅ Stacked bar chart: churn by senior citizen  
+- ✅ Count plots for all service-related variables  
+- ✅ Line/bar plots for tenure & contract trends  
 
-✅ Count plots for all service-related variables
+---
 
-✅ Tenure and contract trends shown via bar/line plots
+## 🧠 Key Takeaways
 
-✅ Key Takeaways
-📉 New users (low tenure) are most likely to churn
+- 📉 New users (low tenure) are most likely to churn  
+- 👴 Senior citizens are more at risk  
+- 🛡️ Customers without security/support services churn more  
+- 📅 Long-term contracts help reduce churn  
+- 🧪 Fiber optic services need deeper review  
 
-👴 Senior citizens are more at risk
+---
 
-📶 Customers without OnlineSecurity or TechSupport churn more
+## 💡 Recommendations
 
-💡 Long-term contracts greatly improve retention
+- Improve onboarding experience for new customers  
+- Target senior citizens with retention offers  
+- Promote annual plans with discounts  
+- Upsell OnlineSecurity & TechSupport  
+- Investigate Fiber service quality/pricing issues  
 
-🧪 Fiber optic service may need quality or pricing review
+---
 
-💡 Recommendations
-Improve onboarding for new customers
+## 📂 Files in This Repository
 
-Target senior citizens with retention offers
+- `Churn_Analysis.ipynb`: Jupyter notebook with full analysis  
+- `Executive_Summary.pdf`: Final summary report  
+- `churn_data.csv`: Dataset (if allowed)  
+- `README.md`: Project overview  
 
-Promote annual contracts via discounts
+---
 
-Upsell value-added services like security & support
+## 👨‍💻 Author
 
-Evaluate fiber optic feedback for churn reasons
-
-📂 Files in Repository
-bash
-Copy
-Edit
-├── Churn_Analysis.ipynb        # Full analysis notebook
-├── Executive_Summary.pdf       # Final summarized PDF
-├── churn_data.csv              # Dataset (if permitted)
-├── README.md                   # This file
-📎 Tools Used
-Python (Pandas, NumPy)
-
-Matplotlib, Seaborn
-
-Jupyter Notebook
-
-GitHub for version control
-
-👨‍💻 Author
-Shubham Pandey
-📧 shubhampandey7064@gmail.com
-🌐 GitHub
+**Shubham Pandey**  
+📧 shubhampandey7064@gmail.com  
+🌐 [GitHub Profile](https://github.com/Shubhampandey1808)
